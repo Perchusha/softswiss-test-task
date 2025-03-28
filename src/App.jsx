@@ -73,7 +73,9 @@ function App() {
         </div>
       </header>
 
-      <section className="hero"></section>
+      <section className="hero">
+        <div className="hero__container container"></div>
+      </section>
       <section className="offers"></section>
       <section className="cta"></section>
       <footer className="footer"></footer>

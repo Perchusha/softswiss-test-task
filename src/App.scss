@@ -162,8 +162,31 @@ $blue: #304571;
 
 /* --------- HERO --------- */
 .hero {
-  padding: 4rem 2rem;
-  text-align: center;
+  height: 490px;
+  position: relative;
+  background-image:
+          url('./assets/images/earth.webp'),
+          url('./assets/images/hero.webp');
+
+  background-repeat: no-repeat, no-repeat;
+  background-position:  right 2rem center, center top;
+  background-size: auto, cover;
+
+  @include max($breakpoint-tablet) {
+    height: 420px;
+    background-position: right -6rem center, center top;
+    background-size: 300px, cover;
+  }
+
+  @include max($breakpoint-mobile) {
+    height: 360px;
+    background-position: top -6rem center, center top;
+    background-size: 95%, cover;
+  }
+
+  &__container {
+    padding: 2rem 0;
+  }
 
   &__title {
     font-size: 3rem;
@@ -259,4 +282,5 @@ $blue: #304571;
   margin-inline: auto;
   padding-inline: 1rem;
   width: 100%;
+  height: 100%;
 }
