@@ -3,7 +3,7 @@ import logo from './assets/svgs/logo.svg';
 import menu from './assets/svgs/menu.svg';
 import close from './assets/svgs/close.svg';
 import { ReactComponent as CartIcon } from './assets/svgs/cart.svg';
-import './styles/App.scss';
+import './App.scss';
 
 function App() {
   const [isBurgerOpen, setBurgerOpen] = useState(false);
