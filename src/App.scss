@@ -40,7 +40,7 @@ $black: #000000;
   font-weight: 700;
   border-radius: 100px;
   cursor: pointer;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease;
   width: fit-content;
   display: inline-block;
   text-align: center;
@@ -124,7 +124,7 @@ $black: #000000;
     font-weight: 700;
     display: flex;
     align-items: center;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
 
     svg.cart-icon {
       display: block;
@@ -473,10 +473,46 @@ $black: #000000;
   gap: 20px;
   color: $white;
   padding: 0 2rem 2rem;
+  position: relative;
 
   @include max($breakpoint-mobile) {
     padding: 0 1rem 2rem;
   }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__text-wrapper {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  &__checkbox:checked ~ .cta__text-wrapper {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+  }
+
+  /*
+  We could also make it work by changing max-height.
+  Why? Because:
+  1) "..." from "text-overflow" are white (opacity doesn't work with it)
+  2) "transition" is not working for "overflow" changing, but will work for "height" changes
+
+  &__text-wrapper {
+    max-height: 100px;
+    text-wrap: wrap;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+
+  &__checkbox:checked ~ .cta__text-wrapper {
+    max-height: 300px;
+  }
+  */
 
   &__title {
     font-weight: 800;
@@ -504,12 +540,25 @@ $black: #000000;
     }
   }
 
-  &__link {
+  &__button {
+    background: transparent;
+    border: none;
+    width: fit-content;
+    font-family: 'Lato', sans-serif;
     color: $yellow;
     text-decoration: none;
     font-weight: 800;
     font-size: 20px;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &::after {
+      content: '↓';
+      display: inline-block;
+      transition: transform 0.3s ease;
+      margin-left: 0.5rem;
+      font-size: 16px;
+    }
 
     &:hover {
       opacity: 0.6;
@@ -522,6 +571,10 @@ $black: #000000;
     @include max($breakpoint-mobile) {
       font-size: 14px;
     }
+  }
+
+  &__checkbox:checked ~ .cta__button::after {
+    transform: rotate(180deg);
   }
 }
 
