@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/softswiss-test-task/static/css/main.676ac957.css",
+    "main.js": "/softswiss-test-task/static/js/main.de8b81da.js",
+    "static/js/453.f586bd0b.chunk.js": "/softswiss-test-task/static/js/453.f586bd0b.chunk.js",
+    "static/media/hero.webp": "/softswiss-test-task/static/media/hero.3c61546f06771a8f84df.webp",
+    "static/media/Lato-Bold.ttf": "/softswiss-test-task/static/media/Lato-Bold.0baf4e4829ca0a3e1e5c.ttf",
+    "static/media/Lato-ExtraBold.ttf": "/softswiss-test-task/static/media/Lato-ExtraBold.0d13f4b5f45c14cf4d3c.ttf",
+    "static/media/space_4.webp": "/softswiss-test-task/static/media/space_4.9f48c703b2b97f3457db.webp",
+    "static/media/space_3.webp": "/softswiss-test-task/static/media/space_3.162eed9756bc3115c331.webp",
+    "static/media/space_2.webp": "/softswiss-test-task/static/media/space_2.090ff3250561f20a32c4.webp",
+    "static/media/space_1.webp": "/softswiss-test-task/static/media/space_1.25a27cff56e7f1c41e28.webp",
+    "static/media/earth.webp": "/softswiss-test-task/static/media/earth.381dd78e89f7adb3872a.webp",
+    "static/media/logo.svg": "/softswiss-test-task/static/media/logo.938a73a713543ba39670a9924dd3d008.svg",
+    "static/media/rocket.webp": "/softswiss-test-task/static/media/rocket.5602bc592ff8bb40e0f2.webp",
+    "static/media/cart.svg": "/softswiss-test-task/static/media/cart.681c34ee69413c33d92e77212e04f833.svg",
+    "static/media/menu.svg": "/softswiss-test-task/static/media/menu.f8b6ca9d6670c0e6461be0999f6ed839.svg",
+    "static/media/close.svg": "/softswiss-test-task/static/media/close.b6606d153f86fdc1f0ffddc6f67e4231.svg",
+    "index.html": "/softswiss-test-task/index.html",
+    "main.676ac957.css.map": "/softswiss-test-task/static/css/main.676ac957.css.map",
+    "main.de8b81da.js.map": "/softswiss-test-task/static/js/main.de8b81da.js.map",
+    "453.f586bd0b.chunk.js.map": "/softswiss-test-task/static/js/453.f586bd0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.676ac957.css",
+    "static/js/main.de8b81da.js"
+  ]
+}
