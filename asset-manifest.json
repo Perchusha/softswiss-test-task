@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/softswiss-test-task/static/css/main.676ac957.css",
-    "main.js": "/softswiss-test-task/static/js/main.de8b81da.js",
+    "main.js": "/softswiss-test-task/static/js/main.f6d99b76.js",
     "static/js/453.f586bd0b.chunk.js": "/softswiss-test-task/static/js/453.f586bd0b.chunk.js",
     "static/media/hero.webp": "/softswiss-test-task/static/media/hero.3c61546f06771a8f84df.webp",
     "static/media/Lato-Bold.ttf": "/softswiss-test-task/static/media/Lato-Bold.0baf4e4829ca0a3e1e5c.ttf",
@@ -18,11 +18,11 @@
     "static/media/close.svg": "/softswiss-test-task/static/media/close.b6606d153f86fdc1f0ffddc6f67e4231.svg",
     "index.html": "/softswiss-test-task/index.html",
     "main.676ac957.css.map": "/softswiss-test-task/static/css/main.676ac957.css.map",
-    "main.de8b81da.js.map": "/softswiss-test-task/static/js/main.de8b81da.js.map",
+    "main.f6d99b76.js.map": "/softswiss-test-task/static/js/main.f6d99b76.js.map",
     "453.f586bd0b.chunk.js.map": "/softswiss-test-task/static/js/453.f586bd0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.676ac957.css",
-    "static/js/main.de8b81da.js"
+    "static/js/main.f6d99b76.js"
   ]
 }
